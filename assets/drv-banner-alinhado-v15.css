@@ -1,0 +1,18 @@
+@layer drv-mobile {
+/* Long SEO heading: allow wrapping without extending the banner. */
+.tqg-page.drv-home-page .tqg-hero { height:auto!important; min-height:0!important; }
+.tqg-page.drv-home-page .tqg-hero > .container { width:100%!important; max-width:1120px!important; min-height:620px!important; height:auto!important; padding:72px 24px!important; margin-inline:auto!important; transform:none!important; }
+.tqg-page.drv-home-page .tqg-hero h1.drv-home-hero-title { display:block!important; width:100%!important; max-width:1000px!important; margin:0 auto!important; font-size:clamp(28px,3.5vw,48px)!important; line-height:1.18!important; letter-spacing:-.02em!important; white-space:normal!important; overflow-wrap:normal!important; word-break:normal!important; }
+.tqg-page.drv-home-page .tqg-hero h1.drv-home-hero-title span { display:inline!important; font-size:inherit!important; line-height:inherit!important; white-space:normal!important; letter-spacing:inherit!important; }
+.tqg-page.drv-home-page .tqg-hero h1.drv-home-hero-title span + span:before { content:' '!important; }
+.tqg-page.drv-home-page .tqg-hero h2 { max-width:760px!important; font-size:clamp(18px,2vw,24px)!important; line-height:1.35!important; }
+.tqg-page.drv-home-page .tqg-hero p.mt-6 { max-width:720px!important; font-size:clamp(16px,1.4vw,19px)!important; line-height:1.65!important; }
+.tqg-page.drv-home-page .tqg-hero > .container > p:first-child { margin-bottom:24px!important; }
+@media(max-width:640px) {
+.tqg-page.drv-home-page .tqg-hero > .container { min-height:0!important; padding:48px 20px!important; }
+.tqg-page.drv-home-page .tqg-hero h1.drv-home-hero-title { font-size:clamp(26px,6.6vw,36px)!important; }
+.tqg-page.drv-home-page .tqg-hero .tqg-button { max-width:100%!important; white-space:normal!important; }
+}
+}
+/* Oculto visualmente, disponível para leitores de tela. */
+.drv-certificacoes-acessiveis { position:absolute!important; width:1px!important; height:1px!important; padding:0!important; margin:-1px!important; overflow:hidden!important; clip:rect(0,0,0,0)!important; clip-path:inset(50%)!important; white-space:nowrap!important; border:0!important; }
